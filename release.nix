@@ -6,7 +6,7 @@ in {
   aflplusplus = pkgs.aflplusplus;
   rtl_433 = pkgs.rtl_433;
   jq = pkgs.jq;
-  nomacs = pkgs.nomacs;
+  #nomacs = pkgs.nomacs; # disabled since it takes very long to build this
 
   # cross packages
   crossBspwm = pkgs.pkgsCross.aarch64-multiplatform.bspwm;
