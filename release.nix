@@ -2,7 +2,7 @@
 let
   pkgs = (import <nixpkgs> {});
 in {
-  pkgs.config.contentAddressedByDefault = true;
+  #pkgs.config.contentAddressedByDefault = true;
 
   hello = pkgs.hello;
   aflplusplus = pkgs.aflplusplus;
