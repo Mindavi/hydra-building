@@ -34,6 +34,7 @@ in {
   crossRipgrep = pkgs.pkgsCross.aarch64-multiplatform.ripgrep;
   crossRsync = pkgs.pkgsCross.aarch64-multiplatform.rsync;
   crossRtl433 = pkgs.pkgsCross.aarch64-multiplatform.rtl_433;
+  crossSway= pkgs.pkgsCross.aarch64-multiplatform.sway;
   crossSwaykbdd = pkgs.pkgsCross.aarch64-multiplatform.swaykbdd;
   crossVim = pkgs.pkgsCross.aarch64-multiplatform.vim;
   crossZsh = pkgs.pkgsCross.aarch64-multiplatform.zsh;
