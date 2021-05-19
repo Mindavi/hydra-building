@@ -23,8 +23,11 @@ in {
   crossFzf = pkgs.pkgsCross.aarch64-multiplatform.fzf;
   crossGit = pkgs.pkgsCross.aarch64-multiplatform.git;
   crossGtkDoc = pkgs.pkgsCross.aarch64-multiplatform.gtk-doc;
+  crossHarfbuzz = pkgs.pkgsCross.aarch64-multiplatform.harfbuzz;
   crossHtop = pkgs.pkgsCross.aarch64-multiplatform.htop;
   crossJq = pkgs.pkgsCross.aarch64-multiplatform.jq;
+  crossLibsoup = pkgs.pkgsCross.aarch64-multiplatform.libsoup;
+  crossLibwacom = pkgs.pkgsCross.aarch64-multiplatform.libwacom;
   crossMosquitto = pkgs.pkgsCross.aarch64-multiplatform.mosquitto;
   crossNano = pkgs.pkgsCross.aarch64-multiplatform.nano;
   crossNginx = pkgs.pkgsCross.aarch64-multiplatform.nginx;
