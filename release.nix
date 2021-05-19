@@ -25,7 +25,7 @@ in {
   crossFzf = pkgs.pkgsCross.aarch64-multiplatform.fzf;
   crossGdkPixbuf = pkgs.pkgsCross.aarch64-multiplatform.gdk-pixbuf;
   crossGit = pkgs.pkgsCross.aarch64-multiplatform.git;
-  crossGstreamer = pkgs.pkgsCross.aarch64-multiplatform.gstreamer;
+  crossGstreamer = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gstreamer;
   crossGtkDoc = pkgs.pkgsCross.aarch64-multiplatform.gtk-doc;
   crossHarfbuzz = pkgs.pkgsCross.aarch64-multiplatform.harfbuzz;
   crossHtop = pkgs.pkgsCross.aarch64-multiplatform.htop;
