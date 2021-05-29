@@ -1,9 +1,7 @@
 { ... }:
 let
-  pkgs = (import <nixpkgs> {});
+  pkgs = (import <nixpkgs> { config.contentAddressedByDefault = true; });
 in {
-  #pkgs.config.contentAddressedByDefault = true;
-
   hello = pkgs.hello;
   aflplusplus = pkgs.aflplusplus;
   rtl_433 = pkgs.rtl_433;
