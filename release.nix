@@ -3,7 +3,7 @@ let
   pkgs = (import <nixpkgs> { config.contentAddressedByDefault = true; });
 in {
   hello = pkgs.hello;
-  aflplusplus = pkgs.aflplusplus;
+  #aflplusplus = pkgs.aflplusplus; # takes too long to build for doing often (LLVM)
   rtl_433 = pkgs.rtl_433;
   jq = pkgs.jq;
   #nomacs = pkgs.nomacs; # disabled since it takes very long to build this
