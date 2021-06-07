@@ -20,6 +20,7 @@ in {
   crossElinks = pkgs.pkgsCross.aarch64-multiplatform.elinks;
   crossDhcpcd = pkgs.pkgsCross.aarch64-multiplatform.dhcpcd;
   crossFile = pkgs.pkgsCross.aarch64-multiplatform.file;
+  crossFfmpeg = pkgs.pkgsCross.aarch64-multiplatform.ffmpeg;
   crossFzf = pkgs.pkgsCross.aarch64-multiplatform.fzf;
   crossGdkPixbuf = pkgs.pkgsCross.aarch64-multiplatform.gdk-pixbuf;
   crossGit = pkgs.pkgsCross.aarch64-multiplatform.git;
