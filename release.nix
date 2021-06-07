@@ -28,8 +28,10 @@ in {
   crossHarfbuzz = pkgs.pkgsCross.aarch64-multiplatform.harfbuzz;
   crossHtop = pkgs.pkgsCross.aarch64-multiplatform.htop;
   crossJq = pkgs.pkgsCross.aarch64-multiplatform.jq;
+  crossLibass = pkgs.pkgsCross.aarch64-multiplatform.libass;
   crossLibrsvg = pkgs.pkgsCross.aarch64-multiplatform.librsvg;
   crossLibsoup = pkgs.pkgsCross.aarch64-multiplatform.libsoup;
+  crossLibssh = pkgs.pkgsCross.aarch64-multiplatform.libssh;
   crossLibwacom = pkgs.pkgsCross.aarch64-multiplatform.libwacom;
   crossMosquitto = pkgs.pkgsCross.aarch64-multiplatform.mosquitto;
   crossNano = pkgs.pkgsCross.aarch64-multiplatform.nano;
