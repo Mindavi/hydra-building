@@ -49,6 +49,7 @@ in {
   crossRipgrep = pkgs.pkgsCross.aarch64-multiplatform.ripgrep;
   crossRsync = pkgs.pkgsCross.aarch64-multiplatform.rsync;
   crossRtl433 = pkgs.pkgsCross.aarch64-multiplatform.rtl_433;
+  crossSharedMimeInfo = pkgs.pkgsCross.aarch64-multiplatform.shared-mime-info;
   crossSt = pkgs.pkgsCross.aarch64-multiplatform.st;
   crossSway= pkgs.pkgsCross.aarch64-multiplatform.sway;
   crossSwaykbdd = pkgs.pkgsCross.aarch64-multiplatform.swaykbdd;
