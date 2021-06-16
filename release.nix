@@ -27,6 +27,7 @@ in {
   crossGit = pkgs.pkgsCross.aarch64-multiplatform.git;
   crossGstreamer = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gstreamer;
   crossGtkDoc = pkgs.pkgsCross.aarch64-multiplatform.gtk-doc;
+  crossGtk4 = pkgs.pkgsCross.aarch64-multiplatform.gtk4;
   crossHarfbuzz = pkgs.pkgsCross.aarch64-multiplatform.harfbuzz;
   crossHtop = pkgs.pkgsCross.aarch64-multiplatform.htop;
   crossJq = pkgs.pkgsCross.aarch64-multiplatform.jq;
