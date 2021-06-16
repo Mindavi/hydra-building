@@ -6,6 +6,7 @@ in {
   #aflplusplus = pkgs.aflplusplus; # takes too long to build for doing often (LLVM)
   rtl_433 = pkgs.rtl_433;
   jq = pkgs.jq;
+  nix = pkgs.nix;
   #nomacs = pkgs.nomacs; # disabled since it takes very long to build this
 
   # cross packages
@@ -37,6 +38,7 @@ in {
   crossMosquitto = pkgs.pkgsCross.aarch64-multiplatform.mosquitto;
   crossNano = pkgs.pkgsCross.aarch64-multiplatform.nano;
   crossNginx = pkgs.pkgsCross.aarch64-multiplatform.nginx;
+  crossNix = pkgs.pkgsCross.aarch64-multiplatform.nix;
   crossOpenssh = pkgs.pkgsCross.aarch64-multiplatform.openssh;
   crossPango = pkgs.pkgsCross.aarch64-multiplatform.pango;
   crossPatch = pkgs.pkgsCross.aarch64-multiplatform.patch;
