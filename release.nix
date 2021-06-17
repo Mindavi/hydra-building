@@ -10,6 +10,7 @@ in {
   #nomacs = pkgs.nomacs; # disabled since it takes very long to build this
 
   # cross packages
+  crossA52Dec = pkgs.pkgsCross.aarch64-multiplatform.a52dec;
   crossAsciidoc = pkgs.pkgsCross.aarch64-multiplatform.asciidoc;
   crossAtk = pkgs.pkgsCross.aarch64-multiplatform.atk;
   crossBspwm = pkgs.pkgsCross.aarch64-multiplatform.bspwm;
@@ -17,14 +18,19 @@ in {
   crossCurseofwar = pkgs.pkgsCross.aarch64-multiplatform.curseofwar;
   crossDnsmasq = pkgs.pkgsCross.aarch64-multiplatform.dnsmasq;
   crossDropbear = pkgs.pkgsCross.aarch64-multiplatform.dropbear;
+  crossDwm = pkgs.pkgsCross.aarch64-multiplatform.dwm;
   crossEd = pkgs.pkgsCross.aarch64-multiplatform.ed;
+  crossEglWayland = pkgs.pkgsCross.aarch64-multiplatform.egl-wayland;
   crossElinks = pkgs.pkgsCross.aarch64-multiplatform.elinks;
   crossDhcpcd = pkgs.pkgsCross.aarch64-multiplatform.dhcpcd;
+  crossDmenuWayland = pkgs.pkgsCross.aarch64-multiplatform.dmenu-wayland;
+  crossFcft = pkgs.pkgsCross.aarch64-multiplatform.fcft;
   crossFile = pkgs.pkgsCross.aarch64-multiplatform.file;
   crossFfmpeg = pkgs.pkgsCross.aarch64-multiplatform.ffmpeg;
   crossFzf = pkgs.pkgsCross.aarch64-multiplatform.fzf;
   crossGdkPixbuf = pkgs.pkgsCross.aarch64-multiplatform.gdk-pixbuf;
   crossGit = pkgs.pkgsCross.aarch64-multiplatform.git;
+  crossGsettingsDesktopSchemas = pkgs.pkgsCross.aarch64-multiplatform.gsettings-desktop-schemas;
   crossGstreamer = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gstreamer;
   crossGtkDoc = pkgs.pkgsCross.aarch64-multiplatform.gtk-doc;
   crossGtk4 = pkgs.pkgsCross.aarch64-multiplatform.gtk4;
@@ -50,10 +56,14 @@ in {
   crossRsync = pkgs.pkgsCross.aarch64-multiplatform.rsync;
   crossRtl433 = pkgs.pkgsCross.aarch64-multiplatform.rtl_433;
   crossSharedMimeInfo = pkgs.pkgsCross.aarch64-multiplatform.shared-mime-info;
+  crossStartupNotification = pkgs.pkgsCross.aarch64-multiplatform.libstartup_notification;
   crossSt = pkgs.pkgsCross.aarch64-multiplatform.st;
   crossSway= pkgs.pkgsCross.aarch64-multiplatform.sway;
   crossSwaykbdd = pkgs.pkgsCross.aarch64-multiplatform.swaykbdd;
   crossVim = pkgs.pkgsCross.aarch64-multiplatform.vim;
+  crossXwayland = pkgs.pkgsCross.aarch64-multiplatform.xwayland;
+  crossWlogout = pkgs.pkgsCross.aarch64-multiplatform.wlogout;
+  crossWmctrl = pkgs.pkgsCross.aarch64-multiplatform.wmctrl;
   crossZsh = pkgs.pkgsCross.aarch64-multiplatform.zsh;
 }
 
