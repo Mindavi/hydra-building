@@ -62,6 +62,7 @@ in {
   crossSway= pkgs.pkgsCross.aarch64-multiplatform.sway;
   crossSwaykbdd = pkgs.pkgsCross.aarch64-multiplatform.swaykbdd;
   crossVim = pkgs.pkgsCross.aarch64-multiplatform.vim;
+  crossXterm = pkgs.pkgsCross.aarch64-multiplatform.xterm;
   crossXwayland = pkgs.pkgsCross.aarch64-multiplatform.xwayland;
   crossWlogout = pkgs.pkgsCross.aarch64-multiplatform.wlogout;
   crossWmctrl = pkgs.pkgsCross.aarch64-multiplatform.wmctrl;
