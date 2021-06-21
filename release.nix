@@ -33,6 +33,7 @@ in {
   crossGsettingsDesktopSchemas = pkgs.pkgsCross.aarch64-multiplatform.gsettings-desktop-schemas;
   crossGstreamer = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gstreamer;
   crossGtkDoc = pkgs.pkgsCross.aarch64-multiplatform.gtk-doc;
+  crossGtk3 = pkgs.pkgsCross.aarch64-multiplatform.gtk3;
   crossGtk4 = pkgs.pkgsCross.aarch64-multiplatform.gtk4;
   crossHarfbuzz = pkgs.pkgsCross.aarch64-multiplatform.harfbuzz;
   crossHtop = pkgs.pkgsCross.aarch64-multiplatform.htop;
