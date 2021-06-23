@@ -43,6 +43,7 @@ in {
   crossLibsoup = pkgs.pkgsCross.aarch64-multiplatform.libsoup;
   crossLibssh = pkgs.pkgsCross.aarch64-multiplatform.libssh;
   crossLibwacom = pkgs.pkgsCross.aarch64-multiplatform.libwacom;
+  crossLlvm12 = pkgs.pkgsCross.aarch64-multiplatform.llvm_12;
   crossMosquitto = pkgs.pkgsCross.aarch64-multiplatform.mosquitto;
   crossNano = pkgs.pkgsCross.aarch64-multiplatform.nano;
   crossNginx = pkgs.pkgsCross.aarch64-multiplatform.nginx;
