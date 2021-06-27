@@ -46,6 +46,7 @@ in {
   crossLlvm11 = pkgs.pkgsCross.aarch64-multiplatform.llvm_11;
   crossLlvm12 = pkgs.pkgsCross.aarch64-multiplatform.llvm_12;
   crossLlvmLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.llvm;
+  crossMesa = pkgs.pkgsCross.aarch64-multiplatform.mesa;
   crossMosquitto = pkgs.pkgsCross.aarch64-multiplatform.mosquitto;
   crossNano = pkgs.pkgsCross.aarch64-multiplatform.nano;
   crossNginx = pkgs.pkgsCross.aarch64-multiplatform.nginx;
