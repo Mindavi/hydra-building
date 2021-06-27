@@ -51,6 +51,7 @@ in {
   crossNano = pkgs.pkgsCross.aarch64-multiplatform.nano;
   crossNginx = pkgs.pkgsCross.aarch64-multiplatform.nginx;
   crossNix = pkgs.pkgsCross.aarch64-multiplatform.nix;
+  crossNixUnstable = pkgs.pkgsCross.aarch64-multiplatform.nixUnstable;
   crossOpenexr = pkgs.pkgsCross.aarch64-multiplatform.openexr;
   crossOpenjpeg = pkgs.pkgsCross.aarch64-multiplatform.openjpeg;
   crossOpenssh = pkgs.pkgsCross.aarch64-multiplatform.openssh;
