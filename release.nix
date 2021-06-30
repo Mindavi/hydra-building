@@ -57,6 +57,7 @@ in {
   crossOpenssh = pkgs.pkgsCross.aarch64-multiplatform.openssh;
   crossPango = pkgs.pkgsCross.aarch64-multiplatform.pango;
   crossPatch = pkgs.pkgsCross.aarch64-multiplatform.patch;
+  crossPcsclite = pkgs.pkgsCross.aarch64-multiplatform.pcsclite;
   #crossRclone = pkgs.pkgsCross.aarch64-multiplatform.rclone; # go build times out
   crossRipgrep = pkgs.pkgsCross.aarch64-multiplatform.ripgrep;
   crossRsync = pkgs.pkgsCross.aarch64-multiplatform.rsync;
