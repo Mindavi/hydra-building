@@ -8,7 +8,7 @@ in {
   rtl_433 = pkgs.rtl_433;
   jq = pkgs.jq;
   nix = pkgs.nix;
-  nix = pkgs.nixUnstable;
+  nixUnstable = pkgs.nixUnstable;
   nomacs = pkgs.nomacs;
 
   # cross packages
