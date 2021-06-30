@@ -79,7 +79,7 @@ in {
   crossDos2unix = cross.dos2unix;
   crossDpkg = cross.dpkg;
   crossDwm = cross.dwm;
-  crossGotifycli = cross.gotify-cli
+  crossGotifycli = cross.gotify-cli;
   crossHtop = cross.htop;
   crossInetutils = cross.inetutils;
   crossLshw = cross.lshw;
