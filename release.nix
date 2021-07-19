@@ -22,7 +22,9 @@ in {
   crossEd = pkgs.pkgsCross.aarch64-multiplatform.ed;
   crossEglWayland = pkgs.pkgsCross.aarch64-multiplatform.egl-wayland;
   crossElinks = pkgs.pkgsCross.aarch64-multiplatform.elinks;
+  crossDbus= pkgs.pkgsCross.aarch64-multiplatform.dbus;
   crossDhcpcd = pkgs.pkgsCross.aarch64-multiplatform.dhcpcd;
+  crossDmenu = pkgs.pkgsCross.aarch64-multiplatform.dmenu;
   crossDmenuWayland = pkgs.pkgsCross.aarch64-multiplatform.dmenu-wayland;
   crossFcft = pkgs.pkgsCross.aarch64-multiplatform.fcft;
   crossFile = pkgs.pkgsCross.aarch64-multiplatform.file;
@@ -37,12 +39,14 @@ in {
   crossGtk4 = pkgs.pkgsCross.aarch64-multiplatform.gtk4;
   crossHarfbuzz = pkgs.pkgsCross.aarch64-multiplatform.harfbuzz;
   crossHtop = pkgs.pkgsCross.aarch64-multiplatform.htop;
+  crossImagemagick = pkgs.pkgsCross.aarch64-multiplatform.imagemagick;
   crossJq = pkgs.pkgsCross.aarch64-multiplatform.jq;
   crossLibass = pkgs.pkgsCross.aarch64-multiplatform.libass;
   crossLibrsvg = pkgs.pkgsCross.aarch64-multiplatform.librsvg;
   crossLibsoup = pkgs.pkgsCross.aarch64-multiplatform.libsoup;
   crossLibssh = pkgs.pkgsCross.aarch64-multiplatform.libssh;
   crossLibwacom = pkgs.pkgsCross.aarch64-multiplatform.libwacom;
+  crossLightdm = pkgs.pkgsCross.aarch64-multiplatform.lightdm;
   crossLlvm12 = pkgs.pkgsCross.aarch64-multiplatform.llvm_12;
   crossLlvmLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.llvm;
   crossMesa = pkgs.pkgsCross.aarch64-multiplatform.mesa;
@@ -56,6 +60,7 @@ in {
   crossOpenssh = pkgs.pkgsCross.aarch64-multiplatform.openssh;
   crossPango = pkgs.pkgsCross.aarch64-multiplatform.pango;
   crossPatch = pkgs.pkgsCross.aarch64-multiplatform.patch;
+  crossPolkit = pkgs.pkgsCross.aarch64-multiplatform.polkit;
   crossPcsclite = pkgs.pkgsCross.aarch64-multiplatform.pcsclite;
   #crossRclone = pkgs.pkgsCross.aarch64-multiplatform.rclone; # go build times out
   crossRipgrep = pkgs.pkgsCross.aarch64-multiplatform.ripgrep;
@@ -64,8 +69,12 @@ in {
   crossSharedMimeInfo = pkgs.pkgsCross.aarch64-multiplatform.shared-mime-info;
   crossStartupNotification = pkgs.pkgsCross.aarch64-multiplatform.libstartup_notification;
   crossSt = pkgs.pkgsCross.aarch64-multiplatform.st;
-  crossSway= pkgs.pkgsCross.aarch64-multiplatform.sway;
+  crossSway = pkgs.pkgsCross.aarch64-multiplatform.sway;
+  crossSwayLock = pkgs.pkgsCross.aarch64-multiplatform.swaylock;
   crossSwaykbdd = pkgs.pkgsCross.aarch64-multiplatform.swaykbdd;
+  crossTracker = pkgs.pkgsCross.aarch64-multiplatform.tracker;
+  crossTrackerMiners = pkgs.pkgsCross.aarch64-multiplatform.tracker-miners;
+  crossUdisks2 = pkgs.pkgsCross.aarch64-multiplatform.udisks2;
   crossVim = pkgs.pkgsCross.aarch64-multiplatform.vim;
   crossXterm = pkgs.pkgsCross.aarch64-multiplatform.xterm;
   crossXwayland = pkgs.pkgsCross.aarch64-multiplatform.xwayland;
