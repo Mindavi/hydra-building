@@ -2,12 +2,18 @@
 let
   pkgs = (import <nixpkgs> { config.contentAddressedByDefault = true; });
 in {
-  hello = pkgs.hello;
   #aflplusplus = pkgs.aflplusplus; # takes too long to build for doing often (LLVM)
-  rtl_433 = pkgs.rtl_433;
+  curl = pkgs.curl;
+  file = pkgs.file;
+  findutils = pkgs.findutils;
+  glibc = pkgs.glibc;
+  hello = pkgs.hello;
   jq = pkgs.jq;
   nix = pkgs.nix;
   #nomacs = pkgs.nomacs; # disabled since it takes very long to build this
+  rtl_433 = pkgs.rtl_433;
+  which = pkgs.which;
+  zlib = pkgs.zlib;
 
   # cross packages
   crossA52Dec = pkgs.pkgsCross.aarch64-multiplatform.a52dec;
@@ -15,6 +21,7 @@ in {
   crossAtk = pkgs.pkgsCross.aarch64-multiplatform.atk;
   crossBspwm = pkgs.pkgsCross.aarch64-multiplatform.bspwm;
   crossBusybox = pkgs.pkgsCross.aarch64-multiplatform.busybox;
+  crossCurl = pkgs.pkgsCross.aarch64-multiplatform.curl;
   crossCurseofwar = pkgs.pkgsCross.aarch64-multiplatform.curseofwar;
   crossDnsmasq = pkgs.pkgsCross.aarch64-multiplatform.dnsmasq;
   crossDropbear = pkgs.pkgsCross.aarch64-multiplatform.dropbear;
