@@ -54,6 +54,7 @@ in {
   crossLibssh = pkgs.pkgsCross.aarch64-multiplatform.libssh;
   crossLibwacom = pkgs.pkgsCross.aarch64-multiplatform.libwacom;
   crossLightdm = pkgs.pkgsCross.aarch64-multiplatform.lightdm;
+  crossLilv = pkgs.pkgsCross.aarch64-multiplatform.lilv;
   crossLlvm12 = pkgs.pkgsCross.aarch64-multiplatform.llvm_12;
   crossLlvmLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.llvm;
   crossMesa = pkgs.pkgsCross.aarch64-multiplatform.mesa;
@@ -62,6 +63,7 @@ in {
   crossNginx = pkgs.pkgsCross.aarch64-multiplatform.nginx;
   crossNix = pkgs.pkgsCross.aarch64-multiplatform.nix;
   crossNixUnstable = pkgs.pkgsCross.aarch64-multiplatform.nixUnstable;
+  crossOpencv = pkgs.pkgsCross.aarch64-multiplatform.opencv;
   crossOpenexr = pkgs.pkgsCross.aarch64-multiplatform.openexr;
   crossOpenjpeg = pkgs.pkgsCross.aarch64-multiplatform.openjpeg;
   crossOpenssh = pkgs.pkgsCross.aarch64-multiplatform.openssh;
