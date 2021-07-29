@@ -41,6 +41,11 @@ in {
   crossGit = pkgs.pkgsCross.aarch64-multiplatform.git;
   crossGsettingsDesktopSchemas = pkgs.pkgsCross.aarch64-multiplatform.gsettings-desktop-schemas;
   crossGstreamer = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gstreamer;
+  crossGstreamerBad = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gst-plugins-bad;
+  crossGstreamerBase = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gst-plugins-base;
+  crossGstreamerGood = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gst-plugins-good;
+  crossGstreamerLibav = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gst-libav;
+  crossGstreamerUgly = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gst-plugins-ugly;
   crossGtkDoc = pkgs.pkgsCross.aarch64-multiplatform.gtk-doc;
   crossGtk3 = pkgs.pkgsCross.aarch64-multiplatform.gtk3;
   crossGtk4 = pkgs.pkgsCross.aarch64-multiplatform.gtk4;
