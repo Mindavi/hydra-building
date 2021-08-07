@@ -11,7 +11,7 @@ in {
   jq = pkgs.jq;
   nix = pkgs.nix;
   #nomacs = pkgs.nomacs; # disabled since it takes very long to build this
-  rtl_433 = pkgs.rtl_433;
+  #rtl_433 = pkgs.rtl_433; # disabled due to tracker hanging during the build
   which = pkgs.which;
   zlib = pkgs.zlib;
 
