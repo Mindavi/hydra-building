@@ -12,7 +12,7 @@ in {
   nix = pkgs.nix;
   #nomacs = pkgs.nomacs; # disabled since it takes very long to build this
   openalSoft = pkgs.openal;
-  #rtl_433 = pkgs.rtl_433; # disabled due to tracker hanging during the build
+  rtl_433 = pkgs.rtl_433;
   which = pkgs.which;
   zlib = pkgs.zlib;
 
