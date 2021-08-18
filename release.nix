@@ -11,6 +11,7 @@ in {
   jq = pkgs.jq;
   nix = pkgs.nix;
   #nomacs = pkgs.nomacs; # disabled since it takes very long to build this
+  openalSoft = pkgs.openal;
   #rtl_433 = pkgs.rtl_433; # disabled due to tracker hanging during the build
   which = pkgs.which;
   zlib = pkgs.zlib;
@@ -68,6 +69,7 @@ in {
   crossNginx = pkgs.pkgsCross.aarch64-multiplatform.nginx;
   crossNix = pkgs.pkgsCross.aarch64-multiplatform.nix;
   crossNixUnstable = pkgs.pkgsCross.aarch64-multiplatform.nixUnstable;
+  crossOpenalSoft = pkgs.pkgsCross.aarch64-multiplatform.openal;
   crossOpencv = pkgs.pkgsCross.aarch64-multiplatform.opencv;
   crossOpenexr = pkgs.pkgsCross.aarch64-multiplatform.openexr;
   crossOpenjpeg = pkgs.pkgsCross.aarch64-multiplatform.openjpeg;
