@@ -44,7 +44,7 @@ in {
   crossGlew = pkgs.pkgsCross.aarch64-multiplatform.glew;
   crossGraphene = pkgs.pkgsCross.aarch64-multiplatform.graphene;
   crossGsettingsDesktopSchemas = pkgs.pkgsCross.aarch64-multiplatform.gsettings-desktop-schemas;
-  crossGssdp = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gssdp;
+  crossGssdp = pkgs.pkgsCross.aarch64-multiplatform.gssdp;
   crossGstreamerBad = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gst-plugins-bad;
   crossGstreamerBase = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gst-plugins-base;
   crossGstreamerGood = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gst-plugins-good;
