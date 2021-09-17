@@ -13,6 +13,7 @@ in {
   #nomacs = pkgs.nomacs; # disabled since it takes very long to build this
   openalSoft = pkgs.openal;
   rtl_433 = pkgs.rtl_433;
+  squeekboard = pkgs.squeekboard;
   which = pkgs.which;
   zlib = pkgs.zlib;
 
@@ -96,6 +97,7 @@ in {
   crossRtl433 = pkgs.pkgsCross.aarch64-multiplatform.rtl_433;
   crossSharedMimeInfo = pkgs.pkgsCross.aarch64-multiplatform.shared-mime-info;
   crossSpandsp = pkgs.pkgsCross.aarch64-multiplatform.spandsp;
+  crossSqueekboard = pkgs.pkgsCross.aarch64-multiplatform.squeekboard;
   crossSrtp = pkgs.pkgsCross.aarch64-multiplatform.srtp;
   crossStartupNotification = pkgs.pkgsCross.aarch64-multiplatform.libstartup_notification;
   crossSt = pkgs.pkgsCross.aarch64-multiplatform.st;
