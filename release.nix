@@ -23,6 +23,7 @@ in {
   crossAtk = pkgs.pkgsCross.aarch64-multiplatform.atk;
   crossBspwm = pkgs.pkgsCross.aarch64-multiplatform.bspwm;
   crossBusybox = pkgs.pkgsCross.aarch64-multiplatform.busybox;
+  crossCalls = pkgs.pkgsCross.aarch64-multiplatform.calls;
   crossCurl = pkgs.pkgsCross.aarch64-multiplatform.curl;
   crossCurseofwar = pkgs.pkgsCross.aarch64-multiplatform.curseofwar;
   crossDbus= pkgs.pkgsCross.aarch64-multiplatform.dbus;
@@ -37,6 +38,7 @@ in {
   crossEglWayland = pkgs.pkgsCross.aarch64-multiplatform.egl-wayland;
   crossElinks = pkgs.pkgsCross.aarch64-multiplatform.elinks;
   crossFcft = pkgs.pkgsCross.aarch64-multiplatform.fcft;
+  crossFeedbackd = pkgs.pkgsCross.aarch64-multiplatform.feedbackd;
   crossFfmpeg = pkgs.pkgsCross.aarch64-multiplatform.ffmpeg;
   crossFile = pkgs.pkgsCross.aarch64-multiplatform.file;
   crossFzf = pkgs.pkgsCross.aarch64-multiplatform.fzf;
@@ -73,6 +75,7 @@ in {
   crossLibwacom = pkgs.pkgsCross.aarch64-multiplatform.libwacom;
   crossLibxklavier = pkgs.pkgsCross.aarch64-multiplatform.libxklavier;
   crossLightdm = pkgs.pkgsCross.aarch64-multiplatform.lightdm;
+  crossLibhandy = pkgs.pkgsCross.aarch64-multiplatform.libhandy;
   crossLilv = pkgs.pkgsCross.aarch64-multiplatform.lilv;
   crossLlvm12 = pkgs.pkgsCross.aarch64-multiplatform.llvm_12;
   crossLlvmLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.llvm;
@@ -111,6 +114,7 @@ in {
   crossUdisks2 = pkgs.pkgsCross.aarch64-multiplatform.udisks2;
   crossValgrind = pkgs.pkgsCross.aarch64-multiplatform.valgrind;
   crossVim = pkgs.pkgsCross.aarch64-multiplatform.vim;
+  crossWayland = pkgs.pkgsCross.aarch64-multiplatform.wayland;
   crossWlogout = pkgs.pkgsCross.aarch64-multiplatform.wlogout;
   crossWmctrl = pkgs.pkgsCross.aarch64-multiplatform.wmctrl;
   crossXterm = pkgs.pkgsCross.aarch64-multiplatform.xterm;
