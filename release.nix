@@ -1,6 +1,8 @@
 { ... }:
 let
-  pkgs = (import <nixpkgs> { config.contentAddressedByDefault = true; });
+  pkgs = (import <nixpkgs> {
+    #config.contentAddressedByDefault = true;
+  });
 in {
   #aflplusplus = pkgs.aflplusplus; # takes too long to build for doing often (LLVM)
   curl = pkgs.curl;

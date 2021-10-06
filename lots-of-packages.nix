@@ -1,6 +1,8 @@
 { ... }:
 let
-  pkgs = (import <nixpkgs> { config.contentAddressedByDefault = true; });
+  pkgs = (import <nixpkgs> {
+    #config.contentAddressedByDefault = true;
+  });
   cross = pkgs.pkgsCross.aarch64-multiplatform;
 in {
   # some interesting packages / packages I'm the maintainer of.
