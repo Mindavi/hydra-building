@@ -19,6 +19,12 @@ in {
   which = pkgs.which;
   zlib = pkgs.zlib;
 
+  # 'special' environments which aren't tested that often
+  staticSystemd = pkgs.pkgsStatic.systemd;
+  # if I understand correctly this will 'cross-compile' to x86_64 (which is also the native platform).
+  nativeSystemdUsingCross = pkgs.pkgsCross.gnu64.systemd;
+  llvmSystemd = pkgs.pkgsLLVM.systemd;
+
   # cross packages
   crossA52Dec = pkgs.pkgsCross.aarch64-multiplatform.a52dec;
   crossAsciidoc = pkgs.pkgsCross.aarch64-multiplatform.asciidoc;
