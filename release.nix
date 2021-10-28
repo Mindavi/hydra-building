@@ -86,6 +86,7 @@ in {
   crossLibhandy = pkgs.pkgsCross.aarch64-multiplatform.libhandy;
   crossLilv = pkgs.pkgsCross.aarch64-multiplatform.lilv;
   crossLlvm12 = pkgs.pkgsCross.aarch64-multiplatform.llvm_12;
+  crossLlvm13 = pkgs.pkgsCross.aarch64-multiplatform.llvm_13;
   crossLlvmLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.llvm;
   crossMesa = pkgs.pkgsCross.aarch64-multiplatform.mesa;
   crossMosquitto = pkgs.pkgsCross.aarch64-multiplatform.mosquitto;
