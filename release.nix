@@ -34,7 +34,7 @@ in {
   crossCalls = pkgs.pkgsCross.aarch64-multiplatform.calls;
   crossCurl = pkgs.pkgsCross.aarch64-multiplatform.curl;
   crossCurseofwar = pkgs.pkgsCross.aarch64-multiplatform.curseofwar;
-  crossDbus= pkgs.pkgsCross.aarch64-multiplatform.dbus;
+  crossDbus = pkgs.pkgsCross.aarch64-multiplatform.dbus;
   crossDhcpcd = pkgs.pkgsCross.aarch64-multiplatform.dhcpcd;
   crossDmenu = pkgs.pkgsCross.aarch64-multiplatform.dmenu;
   crossDmenuWayland = pkgs.pkgsCross.aarch64-multiplatform.dmenu-wayland;
@@ -88,6 +88,7 @@ in {
   crossLlvm12 = pkgs.pkgsCross.aarch64-multiplatform.llvm_12;
   crossLlvm13 = pkgs.pkgsCross.aarch64-multiplatform.llvm_13;
   crossLlvmLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.llvm;
+  crossMegapixels = pkgs.pkgsCross.aarch64-multiplatform.megapixels;
   crossMesa = pkgs.pkgsCross.aarch64-multiplatform.mesa;
   crossMosquitto = pkgs.pkgsCross.aarch64-multiplatform.mosquitto;
   crossNano = pkgs.pkgsCross.aarch64-multiplatform.nano;
