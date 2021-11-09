@@ -1,7 +1,7 @@
 { ... }:
 let
   pkgs = (import <nixpkgs> {
-    #config.contentAddressedByDefault = true;
+    config.contentAddressedByDefault = true;
   });
 in {
   #aflplusplus = pkgs.aflplusplus; # takes too long to build for doing often (LLVM)
