@@ -20,10 +20,10 @@ in {
   zlib = pkgs.zlib;
 
   # 'special' environments which aren't tested that often
-  staticSystemd = pkgs.pkgsStatic.systemd;
+  #staticSystemd = pkgs.pkgsStatic.systemd;
   # if I understand correctly this will 'cross-compile' to x86_64 (which is also the native platform).
-  nativeSystemdUsingCross = pkgs.pkgsCross.gnu64.systemd;
-  llvmSystemd = pkgs.pkgsLLVM.systemd;
+  #nativeSystemdUsingCross = pkgs.pkgsCross.gnu64.systemd;
+  #llvmSystemd = pkgs.pkgsLLVM.systemd;
 
   # cross packages
   crossA52Dec = pkgs.pkgsCross.aarch64-multiplatform.a52dec;
@@ -85,8 +85,8 @@ in {
   crossLightdm = pkgs.pkgsCross.aarch64-multiplatform.lightdm;
   crossLibhandy = pkgs.pkgsCross.aarch64-multiplatform.libhandy;
   crossLilv = pkgs.pkgsCross.aarch64-multiplatform.lilv;
-  crossLlvm12 = pkgs.pkgsCross.aarch64-multiplatform.llvm_12;
-  crossLlvm13 = pkgs.pkgsCross.aarch64-multiplatform.llvm_13;
+  #crossLlvm12 = pkgs.pkgsCross.aarch64-multiplatform.llvm_12;
+  #crossLlvm13 = pkgs.pkgsCross.aarch64-multiplatform.llvm_13;
   crossLlvmLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.llvm;
   #crossMegapixels = pkgs.pkgsCross.aarch64-multiplatform.megapixels; # disabled due to eval error (makeWrapper in wrong place for 'some dependency of zbar')
   crossMesa = pkgs.pkgsCross.aarch64-multiplatform.mesa;
