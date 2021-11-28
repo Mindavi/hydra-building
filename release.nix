@@ -51,6 +51,7 @@ in {
   crossFile = pkgs.pkgsCross.aarch64-multiplatform.file;
   crossFzf = pkgs.pkgsCross.aarch64-multiplatform.fzf;
   crossGdkPixbuf = pkgs.pkgsCross.aarch64-multiplatform.gdk-pixbuf;
+  crossGeoclue = pkgs.pkgsCross.aarch64-multiplatform.geoclue2;
   crossGit = pkgs.pkgsCross.aarch64-multiplatform.git;
   crossGlew = pkgs.pkgsCross.aarch64-multiplatform.glew;
   crossGraphene = pkgs.pkgsCross.aarch64-multiplatform.graphene;
@@ -90,11 +91,13 @@ in {
   crossLlvmLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.llvm;
   #crossMegapixels = pkgs.pkgsCross.aarch64-multiplatform.megapixels; # disabled due to eval error (makeWrapper in wrong place for 'some dependency of zbar')
   crossMesa = pkgs.pkgsCross.aarch64-multiplatform.mesa;
+  crossModemmanager = pkgs.pkgsCross.aarch64-multiplatform.modemmanager;
   crossMosquitto = pkgs.pkgsCross.aarch64-multiplatform.mosquitto;
   crossNano = pkgs.pkgsCross.aarch64-multiplatform.nano;
   crossNginx = pkgs.pkgsCross.aarch64-multiplatform.nginx;
   crossNix = pkgs.pkgsCross.aarch64-multiplatform.nix;
   crossNixUnstable = pkgs.pkgsCross.aarch64-multiplatform.nixUnstable;
+  crossNuspell = pkgs.pkgsCross.aarch64-multiplatform.nuspell;
   crossOpenalSoft = pkgs.pkgsCross.aarch64-multiplatform.openal;
   crossOpencv = pkgs.pkgsCross.aarch64-multiplatform.opencv;
   crossOpenexr = pkgs.pkgsCross.aarch64-multiplatform.openexr;
