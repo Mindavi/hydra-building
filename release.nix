@@ -2,6 +2,11 @@
 let
   pkgs = (import <nixpkgs> {
     config.contentAddressedByDefault = true;
+    overlays = [ (self: super: {
+      glibc = super.glibc.overrideAttrs (old: {
+        separateDebugInfo = false;
+      });
+    }) ];
   });
 in {
   #aflplusplus = pkgs.aflplusplus; # takes too long to build for doing often (LLVM)
