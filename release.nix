@@ -1,7 +1,7 @@
 { ... }:
 let
   pkgs = (import <nixpkgs> {
-    contentAddressedByDefault = true;
+    config.contentAddressedByDefault = true;
     overlays = [ (import ./overlay.nix) ];
   });
 in {
