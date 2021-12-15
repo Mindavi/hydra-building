@@ -17,4 +17,7 @@ self: super: {
   valgrind = super.valgrind.overrideAttrs (old: {
     separateDebugInfo = false;
   });
+  python3 = super.python3.overrideAttrs (old: {
+    separateDebugInfo = false;
+  });
 }
