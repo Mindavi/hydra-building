@@ -1,8 +1,8 @@
 { ... }:
 let
   pkgs = (import <nixpkgs> {
-    config.contentAddressedByDefault = true;
-    overlays = [ (import ./overlay.nix) ];
+    #config.contentAddressedByDefault = true;
+    #overlays = [ (import ./overlay.nix) ];
   });
 in {
   #aflplusplus = pkgs.aflplusplus; # takes too long to build for doing often (LLVM)
