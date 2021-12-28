@@ -108,6 +108,7 @@ in {
   crossPatch = pkgs.pkgsCross.aarch64-multiplatform.patch;
   crossPcsclite = pkgs.pkgsCross.aarch64-multiplatform.pcsclite;
   crossPolkit = pkgs.pkgsCross.aarch64-multiplatform.polkit;
+  crossPraat = pkgs.pkgsCross.aarch64-multiplatform.praat;  # gtk3 test case
   #crossRclone = pkgs.pkgsCross.aarch64-multiplatform.rclone; # go build times out
   crossRipgrep = pkgs.pkgsCross.aarch64-multiplatform.ripgrep;
   crossRsync = pkgs.pkgsCross.aarch64-multiplatform.rsync;
@@ -131,6 +132,7 @@ in {
   crossWayland = pkgs.pkgsCross.aarch64-multiplatform.wayland;
   crossWlogout = pkgs.pkgsCross.aarch64-multiplatform.wlogout;
   crossWmctrl = pkgs.pkgsCross.aarch64-multiplatform.wmctrl;
+  crossWofi = pkgs.pkgsCross.aarch64-multiplatform.wofi;  # depends on gtk3, testcase for linking against gtk3
   crossXterm = pkgs.pkgsCross.aarch64-multiplatform.xterm;
   crossXwayland = pkgs.pkgsCross.aarch64-multiplatform.xwayland;
   crossZsh = pkgs.pkgsCross.aarch64-multiplatform.zsh;
