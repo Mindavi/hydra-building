@@ -127,6 +127,7 @@ in {
   crossTrackerMiners = pkgs.pkgsCross.aarch64-multiplatform.tracker-miners;
   crossTracker = pkgs.pkgsCross.aarch64-multiplatform.tracker;
   crossUdisks2 = pkgs.pkgsCross.aarch64-multiplatform.udisks2;
+  crossUpower = pkgs.pkgsCross.aarch64-multiplatform.upower;
   crossValgrind = pkgs.pkgsCross.aarch64-multiplatform.valgrind;
   crossVim = pkgs.pkgsCross.aarch64-multiplatform.vim;
   crossWayland = pkgs.pkgsCross.aarch64-multiplatform.wayland;
