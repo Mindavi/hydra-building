@@ -91,6 +91,7 @@ in {
   #crossLlvm12 = pkgs.pkgsCross.aarch64-multiplatform.llvm_12;
   #crossLlvm13 = pkgs.pkgsCross.aarch64-multiplatform.llvm_13;
   crossLlvmLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.llvm;
+  crossLogrotate = pkgs.pkgsCross.aarch64-multiplatform.logrotate;
   #crossMegapixels = pkgs.pkgsCross.aarch64-multiplatform.megapixels; # disabled due to eval error (makeWrapper in wrong place for 'some dependency of zbar')
   crossMesa = pkgs.pkgsCross.aarch64-multiplatform.mesa;
   crossModemmanager = pkgs.pkgsCross.aarch64-multiplatform.modemmanager;
