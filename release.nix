@@ -100,7 +100,7 @@ in {
   crossNginx = pkgs.pkgsCross.aarch64-multiplatform.nginx;
   crossNix = pkgs.pkgsCross.aarch64-multiplatform.nix;
   crossNixUnstable = pkgs.pkgsCross.aarch64-multiplatform.nixUnstable;
-  crossNuspell = pkgs.pkgsCross.aarch64-multiplatform.nuspell;
+  #crossNuspell = pkgs.pkgsCross.aarch64-multiplatform.nuspell;
   crossOpenalSoft = pkgs.pkgsCross.aarch64-multiplatform.openal;
   crossOpencv = pkgs.pkgsCross.aarch64-multiplatform.opencv;
   crossOpenexr = pkgs.pkgsCross.aarch64-multiplatform.openexr;
