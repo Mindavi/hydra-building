@@ -91,6 +91,7 @@ in {
   #crossLlvm12 = pkgs.pkgsCross.aarch64-multiplatform.llvm_12;
   #crossLlvm13 = pkgs.pkgsCross.aarch64-multiplatform.llvm_13;
   crossLlvmLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.llvm;
+  crossLimesuite = pkgs.pkgsCross.aarch64-multiplatform.limesuite;
   crossLogrotate = pkgs.pkgsCross.aarch64-multiplatform.logrotate;
   #crossMegapixels = pkgs.pkgsCross.aarch64-multiplatform.megapixels; # disabled due to eval error (makeWrapper in wrong place for 'some dependency of zbar')
   crossMesa = pkgs.pkgsCross.aarch64-multiplatform.mesa;
@@ -116,6 +117,7 @@ in {
   crossRsync = pkgs.pkgsCross.aarch64-multiplatform.rsync;
   crossRtl433 = pkgs.pkgsCross.aarch64-multiplatform.rtl_433;
   crossSharedMimeInfo = pkgs.pkgsCross.aarch64-multiplatform.shared-mime-info;
+  crossSoapySdrWithPlugins = pkgs.pkgsCross.aarch64-multiplatform.soapysdr-with-plugins;
   crossSpandsp = pkgs.pkgsCross.aarch64-multiplatform.spandsp;
   crossSqueekboard = pkgs.pkgsCross.aarch64-multiplatform.squeekboard;
   crossSrtp = pkgs.pkgsCross.aarch64-multiplatform.srtp;
