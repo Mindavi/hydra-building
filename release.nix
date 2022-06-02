@@ -138,6 +138,7 @@ in {
   crossWlogout = pkgs.pkgsCross.aarch64-multiplatform.wlogout;
   crossWmctrl = pkgs.pkgsCross.aarch64-multiplatform.wmctrl;
   crossWofi = pkgs.pkgsCross.aarch64-multiplatform.wofi;  # depends on gtk3, testcase for linking against gtk3
+  crossXorgServer = pkgs.pkgsCross.aarch64-multiplatform.xorg.xorgserver;
   crossXterm = pkgs.pkgsCross.aarch64-multiplatform.xterm;
   crossXwayland = pkgs.pkgsCross.aarch64-multiplatform.xwayland;
   crossZsh = pkgs.pkgsCross.aarch64-multiplatform.zsh;
