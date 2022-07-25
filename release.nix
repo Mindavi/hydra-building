@@ -23,7 +23,7 @@ in {
   # 'special' environments which aren't tested that often
   #staticSystemd = pkgs.pkgsStatic.systemd;
   # if I understand correctly this will 'cross-compile' to x86_64 (which is also the native platform).
-  #nativeSystemdUsingCross = pkgs.pkgsCross.gnu64.systemd;
+  nativeSystemdUsingCross = pkgs.pkgsCross.gnu64.systemd;
   #llvmSystemd = pkgs.pkgsLLVM.systemd;
 
   # cross packages
