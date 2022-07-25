@@ -35,6 +35,7 @@ in {
   crossBusybox = pkgs.pkgsCross.aarch64-multiplatform.busybox;
   crossCalls = pkgs.pkgsCross.aarch64-multiplatform.calls;
   crossClangLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.clang;
+  crossCups = pkgs.pkgsCross.aarch64-multiplatform.cups;
   crossCurl = pkgs.pkgsCross.aarch64-multiplatform.curl;
   crossCurseofwar = pkgs.pkgsCross.aarch64-multiplatform.curseofwar;
   crossDbus = pkgs.pkgsCross.aarch64-multiplatform.dbus;
