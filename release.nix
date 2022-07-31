@@ -75,7 +75,7 @@ in {
   crossHamlib = pkgs.pkgsCross.aarch64-multiplatform.hamlib;
   crossHarfbuzz = pkgs.pkgsCross.aarch64-multiplatform.harfbuzz;
   crossHtop = pkgs.pkgsCross.aarch64-multiplatform.htop;
-  crossHydra = pkgs.pkgsCross.aarch64-multiplatform.hydra_unstable;
+  #crossHydra = pkgs.pkgsCross.aarch64-multiplatform.hydra_unstable;
   crossImagemagick = pkgs.pkgsCross.aarch64-multiplatform.imagemagick;
   crossJq = pkgs.pkgsCross.aarch64-multiplatform.jq;
   crossLibaom = pkgs.pkgsCross.aarch64-multiplatform.libaom;
@@ -114,13 +114,13 @@ in {
   crossPatch = pkgs.pkgsCross.aarch64-multiplatform.patch;
   crossPcsclite = pkgs.pkgsCross.aarch64-multiplatform.pcsclite;
   crossPolkit = pkgs.pkgsCross.aarch64-multiplatform.polkit;
-  crossPostgresql = pkgs.pkgsCross.aarch64-multiplatform.postgresql;
+  #crossPostgresql = pkgs.pkgsCross.aarch64-multiplatform.postgresql;
   crossPraat = pkgs.pkgsCross.aarch64-multiplatform.praat;  # gtk3 test case
-  crossRclone = pkgs.pkgsCross.aarch64-multiplatform.rclone; # go build times out
+  #crossRclone = pkgs.pkgsCross.aarch64-multiplatform.rclone; # go build times out
   crossRipgrep = pkgs.pkgsCross.aarch64-multiplatform.ripgrep;
   crossRsync = pkgs.pkgsCross.aarch64-multiplatform.rsync;
   crossRtl433 = pkgs.pkgsCross.aarch64-multiplatform.rtl_433;
-  crossRust = pkgs.pkgsCross.aarch64-multiplatform.rust;
+  #crossRust = pkgs.pkgsCross.aarch64-multiplatform.rust;
   crossSharedMimeInfo = pkgs.pkgsCross.aarch64-multiplatform.shared-mime-info;
   crossSoapySdrWithPlugins = pkgs.pkgsCross.aarch64-multiplatform.soapysdr-with-plugins;
   crossSpandsp = pkgs.pkgsCross.aarch64-multiplatform.spandsp;
