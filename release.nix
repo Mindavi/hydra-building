@@ -96,7 +96,7 @@ in {
   crossLlvmLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.llvm;
   crossLimesuite = pkgs.pkgsCross.aarch64-multiplatform.limesuite;
   crossLogrotate = pkgs.pkgsCross.aarch64-multiplatform.logrotate;
-  crossMegapixels = pkgs.pkgsCross.aarch64-multiplatform.megapixels;
+  #crossMegapixels = pkgs.pkgsCross.aarch64-multiplatform.megapixels;
   crossMesa = pkgs.pkgsCross.aarch64-multiplatform.mesa;
   crossModemmanager = pkgs.pkgsCross.aarch64-multiplatform.modemmanager;
   crossMosquitto = pkgs.pkgsCross.aarch64-multiplatform.mosquitto;
