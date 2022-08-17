@@ -28,6 +28,7 @@ in {
 
   # cross packages
   crossA52Dec = pkgs.pkgsCross.aarch64-multiplatform.a52dec;
+  crossAccountsservice = pkgs.pkgsCross.aarch64-multiplatform.accountsservice;
   crossAsciidoc = pkgs.pkgsCross.aarch64-multiplatform.asciidoc;
   crossAtk = pkgs.pkgsCross.aarch64-multiplatform.atk;
   crossAvahi = pkgs.pkgsCross.aarch64-multiplatform.avahi;
@@ -58,6 +59,7 @@ in {
   crossGeoclue = pkgs.pkgsCross.aarch64-multiplatform.geoclue2;
   crossGit = pkgs.pkgsCross.aarch64-multiplatform.git;
   crossGlew = pkgs.pkgsCross.aarch64-multiplatform.glew;
+  crossGnomeDesktop = pkgs.pkgsCross.aarch64-multiplatform.gnome-desktop;
   crossGraphene = pkgs.pkgsCross.aarch64-multiplatform.graphene;
   crossGsettingsDesktopSchemas = pkgs.pkgsCross.aarch64-multiplatform.gsettings-desktop-schemas;
   crossGssdp = pkgs.pkgsCross.aarch64-multiplatform.gssdp;
@@ -67,6 +69,7 @@ in {
   crossGstreamerLibav = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gst-libav;
   crossGstreamer = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gstreamer;
   crossGstreamerUgly = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gst-plugins-ugly;
+  crossGtk2 = pkgs.pkgsCross.aarch64-multiplatform.gtk2;
   crossGtk3 = pkgs.pkgsCross.aarch64-multiplatform.gtk3;
   crossGtk4 = pkgs.pkgsCross.aarch64-multiplatform.gtk4;
   crossGtkDoc = pkgs.pkgsCross.aarch64-multiplatform.gtk-doc;
