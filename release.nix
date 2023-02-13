@@ -53,6 +53,7 @@ in {
   crossFcft = pkgs.pkgsCross.aarch64-multiplatform.fcft;
   crossFeedbackd = pkgs.pkgsCross.aarch64-multiplatform.feedbackd;
   crossFfmpeg = pkgs.pkgsCross.aarch64-multiplatform.ffmpeg;
+  crossFfmpegFull = pkgs.pkgsCross.aarch64-multiplatform.ffmpeg-full;
   crossFile = pkgs.pkgsCross.aarch64-multiplatform.file;
   crossFzf = pkgs.pkgsCross.aarch64-multiplatform.fzf;
   crossGdkPixbuf = pkgs.pkgsCross.aarch64-multiplatform.gdk-pixbuf;
@@ -119,11 +120,15 @@ in {
   crossPolkit = pkgs.pkgsCross.aarch64-multiplatform.polkit;
   #crossPostgresql = pkgs.pkgsCross.aarch64-multiplatform.postgresql;
   crossPraat = pkgs.pkgsCross.aarch64-multiplatform.praat;  # gtk3 test case
+  crossQtBase = pkgsCross.aarch64-multiplatform.qt6Packages.qtbase;
+  crossQtLottie = pkgsCross.aarch64-multiplatform.qt6Packages.qtlottie;
+  crossQtSvg = pkgsCross.aarch64-multiplatform.qt6Packages.qtsvg;
   #crossRclone = pkgs.pkgsCross.aarch64-multiplatform.rclone; # go build times out
   crossRipgrep = pkgs.pkgsCross.aarch64-multiplatform.ripgrep;
   crossRsync = pkgs.pkgsCross.aarch64-multiplatform.rsync;
   crossRtl433 = pkgs.pkgsCross.aarch64-multiplatform.rtl_433;
   #crossRust = pkgs.pkgsCross.aarch64-multiplatform.rust;
+  crossSamba = pkgs.pkgsCross.aarch64-multiplatform.samba;
   crossSharedMimeInfo = pkgs.pkgsCross.aarch64-multiplatform.shared-mime-info;
   crossSoapySdrWithPlugins = pkgs.pkgsCross.aarch64-multiplatform.soapysdr-with-plugins;
   crossSpandsp = pkgs.pkgsCross.aarch64-multiplatform.spandsp;
