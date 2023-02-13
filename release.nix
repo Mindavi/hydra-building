@@ -120,9 +120,9 @@ in {
   crossPolkit = pkgs.pkgsCross.aarch64-multiplatform.polkit;
   #crossPostgresql = pkgs.pkgsCross.aarch64-multiplatform.postgresql;
   crossPraat = pkgs.pkgsCross.aarch64-multiplatform.praat;  # gtk3 test case
-  crossQtBase = pkgsCross.aarch64-multiplatform.qt6Packages.qtbase;
-  crossQtLottie = pkgsCross.aarch64-multiplatform.qt6Packages.qtlottie;
-  crossQtSvg = pkgsCross.aarch64-multiplatform.qt6Packages.qtsvg;
+  crossQtBase = pkgs.pkgsCross.aarch64-multiplatform.qt6Packages.qtbase;
+  crossQtLottie = pkgs.pkgsCross.aarch64-multiplatform.qt6Packages.qtlottie;
+  crossQtSvg = pkgs.pkgsCross.aarch64-multiplatform.qt6Packages.qtsvg;
   #crossRclone = pkgs.pkgsCross.aarch64-multiplatform.rclone; # go build times out
   crossRipgrep = pkgs.pkgsCross.aarch64-multiplatform.ripgrep;
   crossRsync = pkgs.pkgsCross.aarch64-multiplatform.rsync;
