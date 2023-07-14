@@ -117,6 +117,7 @@ in {
   crossPango = pkgs.pkgsCross.aarch64-multiplatform.pango;
   crossPatch = pkgs.pkgsCross.aarch64-multiplatform.patch;
   crossPcsclite = pkgs.pkgsCross.aarch64-multiplatform.pcsclite;
+  crossPipewire = pkgs.pkgsCross.aarch64-multiplatform.pipewire;
   crossPolkit = pkgs.pkgsCross.aarch64-multiplatform.polkit;
   #crossPostgresql = pkgs.pkgsCross.aarch64-multiplatform.postgresql;
   crossPraat = pkgs.pkgsCross.aarch64-multiplatform.praat;  # gtk3 test case
