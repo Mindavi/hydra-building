@@ -32,6 +32,8 @@ in {
   crossAsciidoc = pkgs.pkgsCross.aarch64-multiplatform.asciidoc;
   crossAtk = pkgs.pkgsCross.aarch64-multiplatform.atk;
   crossAvahi = pkgs.pkgsCross.aarch64-multiplatform.avahi;
+  crossBoost = pkgs.pkgsCross.aarch64-multiplatform.boost;
+  crossBoost183 = pkgs.pkgsCross.aarch64-multiplatform.boost183;
   crossBspwm = pkgs.pkgsCross.aarch64-multiplatform.bspwm;
   crossBusybox = pkgs.pkgsCross.aarch64-multiplatform.busybox;
   crossCalls = pkgs.pkgsCross.aarch64-multiplatform.calls;
@@ -61,7 +63,9 @@ in {
   crossGit = pkgs.pkgsCross.aarch64-multiplatform.git;
   crossGlew = pkgs.pkgsCross.aarch64-multiplatform.glew;
   crossGnomeDesktop = pkgs.pkgsCross.aarch64-multiplatform.gnome-desktop;
+  crossGnomeTextEditor = pkgs.pkgsCross.aarch64-multiplatform.gnome-text-editor;
   crossGraphene = pkgs.pkgsCross.aarch64-multiplatform.graphene;
+  crossGraphviz = pkgs.pkgsCross.aarch64-multiplatform.graphviz;
   crossGsettingsDesktopSchemas = pkgs.pkgsCross.aarch64-multiplatform.gsettings-desktop-schemas;
   crossGssdp = pkgs.pkgsCross.aarch64-multiplatform.gssdp;
   crossGstreamerBad = pkgs.pkgsCross.aarch64-multiplatform.gst_all_1.gst-plugins-bad;
@@ -78,14 +82,17 @@ in {
   crossGupnp = pkgs.pkgsCross.aarch64-multiplatform.gupnp;
   crossHamlib = pkgs.pkgsCross.aarch64-multiplatform.hamlib;
   crossHarfbuzz = pkgs.pkgsCross.aarch64-multiplatform.harfbuzz;
+  crossHatchVcs = pkgs.pkgsCross.aarch64-multiplatform.pythonPackages.hatch-vcs;
   crossHtop = pkgs.pkgsCross.aarch64-multiplatform.htop;
   #crossHydra = pkgs.pkgsCross.aarch64-multiplatform.hydra_unstable;
   crossImagemagick = pkgs.pkgsCross.aarch64-multiplatform.imagemagick;
+  crossIproute2 = pkgs.pkgsCross.aarch64-multiplatform.iproute2;
   crossJq = pkgs.pkgsCross.aarch64-multiplatform.jq;
   crossLibaom = pkgs.pkgsCross.aarch64-multiplatform.libaom;
   crossLibass = pkgs.pkgsCross.aarch64-multiplatform.libass;
   crossLibgrss = pkgs.pkgsCross.aarch64-multiplatform.libgrss;
   crossLibnice = pkgs.pkgsCross.aarch64-multiplatform.libnice;
+  crossLibopus = pkgs.pkgsCross.aarch64-multiplatform.libopus;
   crossLibrsvg = pkgs.pkgsCross.aarch64-multiplatform.librsvg;
   crossLibsoup = pkgs.pkgsCross.aarch64-multiplatform.libsoup;
   crossLibssh = pkgs.pkgsCross.aarch64-multiplatform.libssh;
@@ -114,17 +121,19 @@ in {
   crossOpenexr = pkgs.pkgsCross.aarch64-multiplatform.openexr;
   crossOpenjpeg = pkgs.pkgsCross.aarch64-multiplatform.openjpeg;
   crossOpenssh = pkgs.pkgsCross.aarch64-multiplatform.openssh;
+  crossOstree = pkgs.pkgsCross.aarch64-multiplatform.ostree;
   crossPango = pkgs.pkgsCross.aarch64-multiplatform.pango;
   crossPatch = pkgs.pkgsCross.aarch64-multiplatform.patch;
   crossPcsclite = pkgs.pkgsCross.aarch64-multiplatform.pcsclite;
   crossPipewire = pkgs.pkgsCross.aarch64-multiplatform.pipewire;
   crossPolkit = pkgs.pkgsCross.aarch64-multiplatform.polkit;
-  #crossPostgresql = pkgs.pkgsCross.aarch64-multiplatform.postgresql;
+  crossPostgresql = pkgs.pkgsCross.aarch64-multiplatform.postgresql;
   crossPraat = pkgs.pkgsCross.aarch64-multiplatform.praat;  # gtk3 test case
+  crossPython3 = pkgs.pkgsCross.aarch64-multiplatform.python3;
   crossQtBase = pkgs.pkgsCross.aarch64-multiplatform.qt6Packages.qtbase;
   crossQtLottie = pkgs.pkgsCross.aarch64-multiplatform.qt6Packages.qtlottie;
   crossQtSvg = pkgs.pkgsCross.aarch64-multiplatform.qt6Packages.qtsvg;
-  #crossRclone = pkgs.pkgsCross.aarch64-multiplatform.rclone; # go build times out
+  crossRclone = pkgs.pkgsCross.aarch64-multiplatform.rclone; # go build times out
   crossRipgrep = pkgs.pkgsCross.aarch64-multiplatform.ripgrep;
   crossRsync = pkgs.pkgsCross.aarch64-multiplatform.rsync;
   crossRtl433 = pkgs.pkgsCross.aarch64-multiplatform.rtl_433;
@@ -155,6 +164,7 @@ in {
   crossXorgServer = pkgs.pkgsCross.aarch64-multiplatform.xorg.xorgserver;
   crossXterm = pkgs.pkgsCross.aarch64-multiplatform.xterm;
   crossXwayland = pkgs.pkgsCross.aarch64-multiplatform.xwayland;
+  crossZeromq = pkgs.pkgsCross.aarch64-multiplatform.zeromq;
   crossZsh = pkgs.pkgsCross.aarch64-multiplatform.zsh;
 }
 
