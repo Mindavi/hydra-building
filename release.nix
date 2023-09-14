@@ -82,7 +82,6 @@ in {
   crossGupnp = pkgs.pkgsCross.aarch64-multiplatform.gupnp;
   crossHamlib = pkgs.pkgsCross.aarch64-multiplatform.hamlib;
   crossHarfbuzz = pkgs.pkgsCross.aarch64-multiplatform.harfbuzz;
-  crossHatchVcs = pkgs.pkgsCross.aarch64-multiplatform.pythonPackages.hatch-vcs;
   crossHtop = pkgs.pkgsCross.aarch64-multiplatform.htop;
   #crossHydra = pkgs.pkgsCross.aarch64-multiplatform.hydra_unstable;
   crossImagemagick = pkgs.pkgsCross.aarch64-multiplatform.imagemagick;
