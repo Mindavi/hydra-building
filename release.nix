@@ -33,7 +33,7 @@ in {
   crossAtk = pkgs.pkgsCross.aarch64-multiplatform.atk;
   crossAvahi = pkgs.pkgsCross.aarch64-multiplatform.avahi;
   crossBoost = pkgs.pkgsCross.aarch64-multiplatform.boost;
-  crossBoost183 = pkgs.pkgsCross.aarch64-multiplatform.boost183;
+  #crossBoost183 = pkgs.pkgsCross.aarch64-multiplatform.boost183; # Not available in older nixpkgs-release-xxx channels
   crossBspwm = pkgs.pkgsCross.aarch64-multiplatform.bspwm;
   crossBusybox = pkgs.pkgsCross.aarch64-multiplatform.busybox;
   crossCalls = pkgs.pkgsCross.aarch64-multiplatform.calls;
