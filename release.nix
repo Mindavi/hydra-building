@@ -42,7 +42,7 @@ in {
   #crossBoost183 = pkgs.pkgsCross.aarch64-multiplatform.boost183; # Not available in older nixpkgs-release-xxx channels
   crossBspwm = pkgs.pkgsCross.aarch64-multiplatform.bspwm;
   crossBusybox = pkgs.pkgsCross.aarch64-multiplatform.busybox;
-  crossCalls = pkgs.pkgsCross.aarch64-multiplatform.calls;
+  #crossCalls = pkgs.pkgsCross.aarch64-multiplatform.calls; # Disabled because it tries to build webkitgtk, which is very heavy (mostly on memory) to build
   crossClangLatest = pkgs.pkgsCross.aarch64-multiplatform.llvmPackages_latest.clang;
   crossCups = pkgs.pkgsCross.aarch64-multiplatform.cups;
   crossCurl = pkgs.pkgsCross.aarch64-multiplatform.curl;
