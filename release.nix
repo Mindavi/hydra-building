@@ -4,12 +4,18 @@ let
     #config.contentAddressedByDefault = true;
     #overlays = [ (import ./overlay.nix) ];
   });
+  pkgsCa = (import <nixpkgs> {
+    config.contentAddressedByDefault = true;
+    #overlays = [ (import ./overlay.nix) ];
+  });
 in {
   #aflplusplus = pkgs.aflplusplus; # takes too long to build for doing often (LLVM)
   curl = pkgs.curl;
+  curlFullyContentAddressed = pkgsCa.curl;
   file = pkgs.file;
   findutils = pkgs.findutils;
   glibc = pkgs.glibc;
+  glibcContentAddressed = (pkgs.glibc.overrideAttrs (oldAttrs: { __contentAddressed = true; }));
   hello = pkgs.hello;
   jq = pkgs.jq;
   nix = pkgs.nix;
@@ -47,6 +53,7 @@ in {
   crossDmenuWayland = pkgs.pkgsCross.aarch64-multiplatform.dmenu-wayland;
   crossDmidecode = pkgs.pkgsCross.aarch64-multiplatform.dmidecode;
   crossDnsmasq = pkgs.pkgsCross.aarch64-multiplatform.dnsmasq;
+  crossDnsmasqContentAddressed = (pkgs.pkgsCross.aarch64-multiplatform.dnsmasq.overrideAttrs (oldAttrs: { __contentAddressed = true; }));
   crossDropbear = pkgs.pkgsCross.aarch64-multiplatform.dropbear;
   crossDwm = pkgs.pkgsCross.aarch64-multiplatform.dwm;
   crossEd = pkgs.pkgsCross.aarch64-multiplatform.ed;
