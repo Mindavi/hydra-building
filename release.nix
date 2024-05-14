@@ -120,7 +120,7 @@ in {
   crossNano = pkgs.pkgsCross.aarch64-multiplatform.nano;
   crossNginx = pkgs.pkgsCross.aarch64-multiplatform.nginx;
   crossNix = pkgs.pkgsCross.aarch64-multiplatform.nix;
-  crossNixUnstable = pkgs.pkgsCross.aarch64-multiplatform.nixUnstable;
+  crossNixGit = pkgs.pkgsCross.aarch64-multiplatform.nixVersions.git;
   #crossNuspell = pkgs.pkgsCross.aarch64-multiplatform.nuspell;  # loads of (haskell) dependencies (?)
   crossOpenalSoft = pkgs.pkgsCross.aarch64-multiplatform.openal;
   crossOpencv = pkgs.pkgsCross.aarch64-multiplatform.opencv;

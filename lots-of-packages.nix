@@ -10,7 +10,7 @@ in {
   rtl_433 = pkgs.rtl_433;
   jq = pkgs.jq;
   nix = pkgs.nix;
-  nixUnstable = pkgs.nixUnstable;
+  nixGit = pkgs.nixVersions.git;
   nomacs = pkgs.nomacs;
 
   # cross packages
