@@ -31,7 +31,6 @@ in {
   crossElvish = cross.elvish;
   crossGit = cross.git;
   crossIon = cross.ion;
-  crossJush = cross.jush;
   crossLiquidprompt = cross.liquidprompt;
   crossMksh = cross.mksh;
   crossMrsh = cross.mrsh;
