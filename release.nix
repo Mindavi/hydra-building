@@ -17,6 +17,9 @@ in {
   glibc = pkgs.glibc;
   glibcContentAddressed = (pkgs.glibc.overrideAttrs (oldAttrs: { __contentAddressed = true; }));
   hello = pkgs.hello;
+  hydra = pkgs.hydra_unstable;
+  hydraContentAddressed = (pkgs.hydra_unstable.overrideAttrs (oldAttrs: { __contentAddressed = true; }));
+  hydraStructuredAttrs = (pkgs.hydra_unstable.overrideAttrs (oldAttrs: { __structuredAttrs = true; }));
   jq = pkgs.jq;
   nix = pkgs.nix;
   #nomacs = pkgs.nomacs; # disabled since it takes very long to build this
