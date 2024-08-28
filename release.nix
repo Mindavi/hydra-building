@@ -19,6 +19,7 @@ in {
   hello = pkgs.hello;
   hydra = pkgs.hydra_unstable;
   hydraContentAddressed = (pkgs.hydra_unstable.overrideAttrs (oldAttrs: { __contentAddressed = true; }));
+  hydraFullyContentAddressed = pkgsCa.hydra_unstable;
   hydraStructuredAttrs = (pkgs.hydra_unstable.overrideAttrs (oldAttrs: { __structuredAttrs = true; }));
   jq = pkgs.jq;
   nix = pkgs.nix;
