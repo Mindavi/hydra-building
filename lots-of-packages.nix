@@ -72,7 +72,7 @@ in {
   crossAsciigraph = cross.asciigraph;
   crossBc = cross.bc;
   crossBftpd = cross.bftpd;
-  crossBird = cross.bird;
+  crossBird = cross.bird3;
   crossCacert = cross.cacert;
   crossCowsay = cross.cowsay;
   crossCups = cross.cups;

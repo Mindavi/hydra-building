@@ -100,7 +100,6 @@ in {
   crossJq = pkgs.pkgsCross.aarch64-multiplatform.jq;
   crossLibaom = pkgs.pkgsCross.aarch64-multiplatform.libaom;
   crossLibass = pkgs.pkgsCross.aarch64-multiplatform.libass;
-  crossLibgrss = pkgs.pkgsCross.aarch64-multiplatform.libgrss;
   crossLibnice = pkgs.pkgsCross.aarch64-multiplatform.libnice;
   crossLibopus = pkgs.pkgsCross.aarch64-multiplatform.libopus;
   crossLibrsvg = pkgs.pkgsCross.aarch64-multiplatform.librsvg;
